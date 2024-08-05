@@ -1,3 +1,5 @@
+import numpy as np
+
 class Sequential:
     def __init__(self, architecture, loss):
         self.architecture = architecture
@@ -23,3 +25,4 @@ class Sequential:
 
     def predict(self, X):
         return self.forward(X)
+
